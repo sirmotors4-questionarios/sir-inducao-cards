@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="pt">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>SIR Motors — A Empresa</title>
+<style>
+:root{--sir-red:#ed3237;--surface:#f7f7f7;--text:#232323;--muted:#676767}
+*{box-sizing:border-box}
+body{margin:0;padding:20px 8px;background:transparent;color:var(--text);font:15px/1.5 Arial,Helvetica,sans-serif}
+nav{max-width:1200px;margin:auto;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+a.card{min-height:108px;display:flex;flex-direction:column;justify-content:center;gap:9px;padding:21px 24px;background:var(--surface);border:1px solid #ebebeb;border-radius:12px;text-decoration:none;color:var(--text);transition:background .25s ease,border-color .25s ease,box-shadow .25s ease,transform .25s ease}
+a.card strong{font-size:16px;font-weight:650}a.card span{color:var(--muted);font-size:14px}
+a.card:focus-visible{outline:3px solid var(--sir-red);outline-offset:3px}
+@media(hover:hover) and (pointer:fine){a.card:hover{background:rgba(237,50,55,.1);border-color:rgba(237,50,55,.5);box-shadow:0 5px 16px rgba(122,25,28,.08);transform:translateY(-2px)}}
+@media(max-width:760px){nav{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:520px){nav{grid-template-columns:1fr}body{padding:12px 4px}a.card{min-height:90px}}
+@media(prefers-reduced-motion:reduce){a.card{transition:none}}
+</style>
+</head>
+<body>
+<nav aria-label="Navegação da secção A Empresa">
+<a class="card" href="https://app.notion.com/p/3f240ace18298116b222d669f1dd7a4b" target="_blank" rel="noopener noreferrer"><strong>Quem Somos</strong><span>Apresentação da organização</span></a>
+<a class="card" href="https://app.notion.com/p/3f240ace182981e190bac72cde8b5f58" target="_blank" rel="noopener noreferrer"><strong>Organograma</strong><span>Estrutura e responsáveis</span></a>
+<a class="card" href="https://app.notion.com/p/3f240ace1829818d9153f9d4c16d159a" target="_blank" rel="noopener noreferrer"><strong>História</strong><span>Os principais marcos</span></a>
+<a class="card" href="https://app.notion.com/p/3f240ace18298183a977f9db53469a0b" target="_blank" rel="noopener noreferrer"><strong>Empresas do Grupo</strong><span>O Grupo SIR</span></a>
+<a class="card" href="https://app.notion.com/p/3f240ace182981119fe2eb4ca0406f84" target="_blank" rel="noopener noreferrer"><strong>Missão, Visão e Valores</strong><span>O que nos orienta</span></a>
+<a class="card" href="https://app.notion.com/p/3f240ace18298104a9aceb12191f5f37" target="_blank" rel="noopener noreferrer"><strong>Liderança</strong><span>Quem lidera a organização</span></a>
+</nav>
+</body>
+</html>
